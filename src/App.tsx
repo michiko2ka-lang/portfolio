@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import meImage from './assets/me2.jpg';
 
 const works = [
     {
@@ -476,7 +477,7 @@ export default function App() {
             <SectionLabel index="01">About / Profile</SectionLabel>
             <div className="about-grid reveal">
                 <div className="portrait-wrap">
-                  <img src="/assets/me2.jpg" alt="中島充子 プロフィール" />
+                  <img src="{meImage}" alt="中島充子 プロフィール" />
                 </div>
                 <div className="about-copy">
                     <p className="eyebrow">
