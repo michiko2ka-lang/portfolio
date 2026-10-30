@@ -1,16 +1,15 @@
 import { useEffect } from "react"
-import meImage from './assets/me2.jpg';
 
 const works = [
     {
         no: "01",
         caption1: "CORPORATE WEBSITE",
-        image1: "/assets/01.png",
-        image2: "/assets/01-a.png",
-        image3: "/assets/01-b.png",
-        image4: "/assets/01-c.png",
-        image5: "/assets/01-sitemap.jpg",
-        image6: "/assets/logo.png",
+        image1: "./assets/01.png",
+        image2: "./assets/01-a.png",
+        image3: "./assets/01-b.png",
+        image4: "./assets/01-c.png",
+        image5: "./assets/01-sitemap.jpg",
+        image6: "./assets/logo.png",
         imageCaption1:"Screens",
         imageCaption2:"",
         imageCaption3:"Site Map",
@@ -46,11 +45,11 @@ const works = [
     },
     {   no: "02",
         caption1: "BRAND WEBSITE",
-        image1: "/assets/02.png",
-        image2: "/assets/02-a.png",
-        image3: "/assets/02-b.png",
-        image4: "/assets/02-c.png",
-        image5: "/assets/02-sitemap.jpg",
+        image1: "./assets/02.png",
+        image2: "./assets/02-a.png",
+        image3: "./assets/02-b.png",
+        image4: "./assets/02-c.png",
+        image5: "./assets/02-sitemap.jpg",
         image6: "",
         imageCaption1:"Screens",
         imageCaption2:"",
@@ -89,11 +88,11 @@ const works = [
     {   
         no: "03",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/03.png",
+        image1: "./assets/03.png",
         image2: "",
-        image3: "/assets/03-tag1.jpg",
-        image4: "/assets/03-tag2.jpg",
-        image5: "/assets/03-visual.png",
+        image3: "./assets/03-tag1.jpg",
+        image4: "./assets/03-tag2.jpg",
+        image5: "./assets/03-visual.png",
         image6: "",
         imageCaption1:"Screens",
         imageCaption2:"Tag Design",
@@ -136,10 +135,10 @@ const works = [
     {
         no: "04",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/04.png",
-        image2: "/assets/04-a.png",
-        image3: "/assets/04-b.png",
-        image4: "/assets/04-c.png",
+        image1: "./assets/04.png",
+        image2: "./assets/04-a.png",
+        image3: "./assets/04-b.png",
+        image4: "./assets/04-c.png",
         image5: "",
         image6: "",
         imageCaption1:"Screens",
@@ -182,9 +181,9 @@ const works = [
     {
         no: "05",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/05.png",
+        image1: "./assets/05.png",
         image2: "",
-        image3: "/assets/05-b.png",
+        image3: "./assets/05-b.png",
         image4: "",
         image5: "",
         image6: "",
@@ -227,11 +226,11 @@ const works = [
     {
         no: "06",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/06.png",
+        image1: "./assets/06.png",
         image2: "",
-        image3: "/assets/06-b.png",
+        image3: "./assets/06-b.png",
         image4: "",
-        image5: "/assets/06-c.jpg",
+        image5: "./assets/06-c.jpg",
         image6: "",
         imageCaption1:"Screens",
         imageCaption2:"",
@@ -273,11 +272,11 @@ const works = [
     {
         no: "07",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/07.png",
+        image1: "./assets/07.png",
         image2: "",
-        image3: "/assets/07-b.png",
+        image3: "./assets/07-b.png",
         image4: "",
-        image5: "/assets/07-c.png",
+        image5: "./assets/07-c.png",
         image6: "",
         imageCaption1:"Screens",
         imageCaption2:"",
@@ -318,9 +317,9 @@ const works = [
     {
         no: "08",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/08.png",
+        image1: "./assets/08.png",
         image2: "",
-        image3: "/assets/08-b.png",
+        image3: "./assets/08-b.png",
         image4: "",
         image5: "",
         image6: "",
@@ -363,11 +362,11 @@ const works = [
     {
         no: "09",
         caption1: "BRAND PARTNERSHIP",
-        image1: "/assets/09.png",
-        image2: "/assets/09-a.png",
-        image3: "/assets/09-b.png",
+        image1: "./assets/09.png",
+        image2: "./assets/09-a.png",
+        image3: "./assets/09-b.png",
         image4: "",
-        image5: "/assets/09-c.png",
+        image5: "./assets/09-c.png",
         image6: "",
         imageCaption1:"Screens",
         imageCaption2:"",
@@ -477,7 +476,7 @@ export default function App() {
             <SectionLabel index="01">About / Profile</SectionLabel>
             <div className="about-grid reveal">
                 <div className="portrait-wrap">
-                  <img src="{meImage}" alt="中島充子 プロフィール" />
+                  <img src="./assets/me2.jpg" alt="中島充子 プロフィール" />
                 </div>
                 <div className="about-copy">
                     <p className="eyebrow">
